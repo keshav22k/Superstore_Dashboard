@@ -1,35 +1,10 @@
-# Global Superstore
+# Superstore_Dashboard
 
-## Problem Statement
+## Overview
 
-A company wants to gain insights into its sales performance and key metrics to improve operational efficiency and strategic decision-making. They seek to monitor total sales, quantity sold, delivery efficiency, and returned orders while analysing sales distribution by segment and market. Additionally, they aim to identify top customers, high-profit products, low-profit products, and regional sales patterns. The ability to filter data by selecting a specific year is also crucial for year-over-year analysis.
+**Superstore_Dashboard** is an interactive Power BI report designed to help businesses analyze and improve sales performance. The dashboard provides a comprehensive view of key metrics such as total sales, quantities sold, delivery efficiency, returns, customer segments, and regional sales patterns. Users can filter data by year for in-depth, comparative analysis.
 
- ## Report Snapshot
-
- 
-![Superstore Report](https://github.com/karankumar26/Global_Superstore_Dashboard_PowerBI/assets/147133944/8e9f2fd5-d781-4e70-a531-27c7d8cb39b7)
-
-## Steps followed 
-#### 1.	Data Collection and Preparation:
--   Load data into Power BI Desktop, dataset is a csv file. 
--   Gathered comprehensive sales data including total sales amount, quantity sold, delivery days, returned orders, customer segmentation, market information, product profitability, and regional sales data.
-#### 2.	Dashboard Creation:
--   Utilized a data visualization tool like Power BI to design the dashboard interface.
-#### 3.	Visualization Design:
--   Implemented Card visuals to display KPIs: Total Sales, Total Quantity Sold, Average Delivery Days, and Returned Orders, providing quick snapshots of key metrics.
-
--   Created a Pie Chart to illustrate sales distribution by Segment, offering insights into the contribution of each segment to overall sales.
--   Constructed a Donut Chart to represent sales by Market, allowing for a visual comparison of sales performance across different markets.
--	Developed a Bar Chart to identify the top 10 customers based on sales volume, aiding in identifying key accounts and customer-centric strategies.
--	Created two separate Bar Charts:
-    *	One to highlight the top 5 Profit Products, showcasing products driving profitability.
-    *	Another to pinpoint the top 5 Loss Products, indicating areas for improvement or optimization.
--	Incorporated a Map Plot to visualize sales per Region, enabling geographic analysis of sales performance and regional trends.
-#### 4.	Filter Implementation:
-•	Implemented a slicer or filter functionality to enable users to select a specific year, facilitating comparative analysis across different time periods.
-
-
-
+---
 ## Key Insights
 ### 1.	Overall Performance Overview:
 -	Total Sales and Quantity Sold metrics provide a comprehensive understanding of revenue and sales volume.
@@ -57,12 +32,55 @@ A company wants to gain insights into its sales performance and key metrics to i
 
 ![image](https://github.com/karankumar26/Global_Superstore_Dashboard_PowerBI/assets/147133944/10bf71f8-9f9b-4c8e-958b-9134e46189dd)
 
-## Conclusion
-This visualization file showcases the actionable insights into various aspects of the company's operations, enabling informed decision-making to drive growth and profitability.
-
 
 ### 5.	Regional Sales Patterns:
 -	The Map Plot visualizes sales per Region, enabling geographic analysis and identification of regions with high or low sales performance, helping in strategic allocation of resources and marketing efforts.
 
 
 Overall, this dashboard provides actionable insights into various aspects of the company's operations, enabling informed decision-making to drive growth and profitability.
+
+---
+## Dashboard Preview
+
+![Superstore Report](https://github.com/karankumar26/Global_Superstore_Dashboard_PowerBI/assets/147133944/8e9f2fd5-d781-4e70-a531-27c7d8cb39b7)
+
+---
+
+## How It Was Built
+
+1. **Data Preparation**
+   - Loaded sales data (CSV) into Power BI Desktop.
+   - Included fields: sales, quantity, delivery days, returns, customer segments, markets, product profitability, and regions.
+
+2. **Dashboard Design**
+   - Built with Power BI, focusing on clarity and usability.
+
+3. **Visualizations**
+   - **KPI Cards:** Total Sales, Quantity Sold, Avg. Delivery Days, Returned Orders.
+   - **Pie Chart:** Sales by Segment.
+   - **Donut Chart:** Sales by Market.
+   - **Bar Charts:** Top 10 Customers, Top 5 Profit Products, Top 5 Loss Products.
+   - **Map Plot:** Sales by Region.
+   - **Slicer:** Year selection for time-based analysis.
+
+---
+
+## Key Insights
+
+- **Performance Overview:** Track sales, quantities, delivery efficiency, and returns to monitor overall business health.
+- **Segment & Market Analysis:** Visualize sales distribution by customer segment and market to identify growth opportunities.
+- **Customer Insights:** Identify top customers to target retention and sales strategies.
+- **Product Performance:** Highlight best and worst performing products for focused management.
+- **Regional Trends:** Map sales by region for strategic resource allocation.
+
+---
+
+## Conclusion
+
+Superstore_Dashboard empowers users with actionable insights into sales, customer behavior, and product performance, supporting data-driven decisions for growth and efficiency.
+
+
+
+
+
+
